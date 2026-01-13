@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Tales Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1 class="site-title">Dog Tales</h1>
+      <div class="social-icons">
+        <a
+          href="https://twitter.com/yourprofile"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://facebook.com/yourprofile"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img
+        src="images/hero-background.jpg"
+        alt="Background"
+        class="hero-background"
+      />
+      <div class="hero-content">
+        <h2 class="hero-title">Dog Tales</h2>
+        <p class="hero-subtitle">
+          Hi! I'm a passionate dog photographer capturing the unique spirit and
+          joy in every tail wag and playful moment.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/dog1.jpg" alt="Dog portrait 1" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/dog2.jpg" alt="Dog portrait 2" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/dog3.jpg" alt="Dog portrait 3" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/dog4.jpg" alt="Dog portrait 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/dog5.jpg" alt="Dog portrait 5" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/dog6.jpg" alt="Dog portrait 6" />
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Contact Section -->
+      <div class="contact-section">
+        <h3 class="contact-title">CONTACT ME</h3>
+        <form class="contact-form">
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input type="text" id="name" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" class="form-textarea" required></textarea>
+          </div>
+          <button type="submit" class="form-submit">SEND MESSAGE</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
