@@ -1,7 +1,7 @@
 // Form submission
 document.querySelector('.contact-form').addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Thank you for your message! ðŸ•');
+    alert('Thank you for your message!');
     e.target.reset();
 });
 
